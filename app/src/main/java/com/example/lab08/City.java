@@ -28,6 +28,7 @@ public class City {
     }
 
     @Override
+    // hash code
     public int hashCode() {
         return city.hashCode() + province.hashCode();
     }
